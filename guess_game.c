@@ -32,6 +32,5 @@ int main()
         nguesses++;
     }while(guess!=number);
      
-     return 0;
-     
+     return 0;   
 }
