@@ -93,5 +93,5 @@ int main()
 
     printf("\nYou choose '%c' and Computer choose '%c'\n\n",you,comp);
 
-    getch();
+    return 0;
 }
