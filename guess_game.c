@@ -12,7 +12,7 @@ int main()
     srand(time(0));
     number = rand()%100 + 1;    // ( %100 + 1 ) ---> It will Generate the Number between 1 to 100
 
-    // You can you this printf to display the generate number on the display 
+    // You can uncomment below printf function to display the generated number on the screen
     //printf("The Number is : %d",number);   
 
 
