@@ -8,7 +8,7 @@
 // w for water 
 // g for gun
 
-// How you can play this game ---->
+// Game Discription ---->
 // if you choose snake and the computer also choose snake then the game draw 
 // if you choose water and the computer also choose water then the game draw 
 // if you choose gun and the computer also choose gun then the game draw 
@@ -19,7 +19,7 @@
 // if you choose snake and the computer choose water then you win
 // if you choose water and the computer choose snake then you lose
 
-// 1 for win , -1 for lose , 0 for draw
+// Giving Score -->  1 for win , -1 for lose , 0 for draw
 int swg(char you,char comp){
     // Condition for Draw 
     // ss
@@ -61,7 +61,7 @@ int main()
     char you,comp;
     int number;
 
-    // This will generate the Random Number 
+    // This will generate the Random Number between (1-100).
     srand(time(0));
     number = rand()%100+1;
 
@@ -76,7 +76,7 @@ int main()
     }
 
 
-    printf("Enter 'g' for Gun 's' for Snake and 'w' for Water : ");     // Case Sensitive
+    printf("Enter 'g' for Gun 's' for Snake and 'w' for Water : ");     // Case Sensitive. Please, Enter input in lower-case character.
     scanf("%c",&you);
 
     int result = swg(you,comp);
